@@ -26,7 +26,11 @@
 
 <br />
 
+<<<<<<< HEAD
 ![1.02](https://github.com/LiuZheng60/001OpenBooks/blob/main/001Book_AI/image/001/001.png?raw=true)
+=======
+![](https://github.com/LiuZheng60/001OpenBooks/blob/main/001Book_AI/image/001/001.png)
+>>>>>>> 40981da41e27b87c2c0e6c797ae97945ac8b39d2
 
 本文会深入解析MCP、Function Calling和A2A的协议细节，揭示其背后的本质，以便我们在工作中可以更好地开发、使用Agent技术。
 

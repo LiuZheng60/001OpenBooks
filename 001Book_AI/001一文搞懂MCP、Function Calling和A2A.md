@@ -26,11 +26,7 @@
 
 <br />
 
-<<<<<<< HEAD
 ![1.02](https://github.com/LiuZheng60/001OpenBooks/blob/main/001Book_AI/image/001/001.png?raw=true)
-=======
-![](https://github.com/LiuZheng60/001OpenBooks/blob/main/001Book_AI/image/001/001.png)
->>>>>>> 40981da41e27b87c2c0e6c797ae97945ac8b39d2
 
 本文会深入解析MCP、Function Calling和A2A的协议细节，揭示其背后的本质，以便我们在工作中可以更好地开发、使用Agent技术。
 
@@ -327,7 +323,7 @@ A2A是google开源的开放协议。其包含如下核心概念：
 
 Agent Card（卡片）
 
-位于 `/.well-known/agent.json`，描述能力、技能、端点 URL 和认证要求，用于发现
+位于 `/.well-known/agent.json`，描述能力、技能、端点 URL 和认证要求，用于发现
 
 A2A Server（服务器）
 
@@ -335,19 +331,19 @@ A2A Server（服务器）
 
 A2A Client（客户端）
 
-发送请求如 `tasks/send` 或 `tasks/sendSubscribe`，消费 A2A 服务
+发送请求如 `tasks/send` 或 `tasks/sendSubscribe`，消费 A2A 服务
 
 Task(任务)
 
-核心工作单位，有唯一 ID，状态包括 `submitted`、`working` 等
+核心工作单位，有唯一 ID，状态包括 `submitted`、`working` 等
 
 Message(消息)
 
-通信单位，角色为 `user` 或 `agent`，包含 Parts
+通信单位，角色为 `user` 或 `agent`，包含 Parts
 
 Parts(部分)
 
-内容单位，包括 `TextPart`、`FilePart`、`DataPart`
+内容单位，包括 `TextPart`、`FilePart`、`DataPart`
 
 Artifacts(工件)
 

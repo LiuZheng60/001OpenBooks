@@ -186,7 +186,7 @@ MCP Server发送:{"jsonrpc":"2.0","id":4,"result":{"content":[{"type":"text","te
 
 当我问`“杭州明天的天气如何”`的时候，大模型为什么知道要调用get\_forecast这个工具呢？实际上，这就是大模型的Function Calling，而这个能力需要我们通过prompt的方式来教大模型。这个能力正是大模型区别传统SOP的关键：**用非结构化的“柔性”，完美克服了传统规则的“刚性”**。
 
-我们可以通过查看Cline的源码来理解Agent是如何“指导”大模型进行Function Calling的。你可以在此查看：Cline的完整system prompt（<https://github.com/cline/cline），整个prompt有600行，将近50K大小，总共13000个字符，会消耗5000个tokens。>**这就是为什么很多人吐槽Cline Agent烧Token的原因**：）。内容比较多，我们截取里面部分内容分析一下，你就明白为什么大模型有能力调用工具了。
+我们可以通过查看Cline的源码来理解Agent是如何“指导”大模型进行Function Calling的。你可以在此查看：Cline的完整system prompt <https://github.com/cline/cline>，整个prompt有600行，将近50K大小，总共13000个字符，会消耗5000个tokens。**这就是为什么很多人吐槽Cline Agent烧Token的原因**：）。内容比较多，我们截取里面部分内容分析一下，你就明白为什么大模型有能力调用工具了。
 
 ## **3.1 身份声明**
 

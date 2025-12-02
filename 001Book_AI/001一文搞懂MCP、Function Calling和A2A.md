@@ -19,5 +19,5 @@
 
 <br />
 
-![1.00](/001/001.png)
+![](https://github.com/LiuZheng60/001OpenBooks/blob/main/001Book_AI/image/001/001.png)
 
